@@ -1,4 +1,4 @@
 interface:
   display_name: "Be Thorough"
-  short_description: "Run audits, UI/persona checks, and completeness loops before finalizing."
-  default_prompt: "Use $be-thorough to complete this task with independent audits, UI/persona/text checks when applicable, and completeness checks before finalizing."
+  short_description: "Run rigorous, scope-bounded verification before finalizing."
+  default_prompt: "Use $be-thorough to define the mission boundary, complete and verify it rigorously, run one bounded independent review, and keep adjacent improvements as follow-ups."
