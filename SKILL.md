@@ -32,7 +32,7 @@ If delegation is unavailable, perform an explicit main-thread review and disclos
 
 ## Reporting gate
 
-Finish only when relevant verification has passed or its limits are explicit, no admitted finding remains, the requirement ledger is complete, and changed files are intentional. A blocked requirement must identify the exact missing input or external condition; complete the independent work that remains possible.
+Finish only when relevant verification has passed or its limits are explicit, no admitted finding remains, any ledger required by the selected workflow is complete, and changed files are intentional. A blocked requirement must identify the exact missing input or external condition; complete the independent work that remains possible.
 
 For UI, rendered behavior must pass the applicable review. For user-visible writing, prefer direct, specific language and readable structure; revise filler and dense prose. Use humanizer only when a substantial editorial pass is warranted. An internal writing score is not evidence of user comprehension.
 
