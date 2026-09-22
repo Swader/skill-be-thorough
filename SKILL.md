@@ -34,7 +34,7 @@ If delegation is unavailable, perform an explicit main-thread review and disclos
 
 The stronger model that started the task plans the canary and assesses its evidence. Delegate execution to a weaker model. Give it a compact brief with the exact release, owned fixtures, allowed actions, required checks, stop conditions, and cleanup. Do not fork the full task history. This selects the canary operator model; it does not change the system's live model or expand permission for production actions.
 
-In the Codex app, use Luna (`gpt-5.6-luna`) in a separate, sidebar-visible task created with `create_thread`. Put it in the **Canary** section, creating that section only if missing, and link the task from the parent. Reuse the task for related retries. Do not run the canary in a hidden subagent or the stronger parent. If Luna or the required sidebar controls are unavailable, report the blocker instead of silently substituting.
+In the Codex app, use Luna in a separate, sidebar-visible task created with `create_thread`. Put it in the **Canary** section, creating that section only if missing, and link the task from the parent. Reuse the task for related retries. Do not run the canary in a hidden subagent or the stronger parent. If Luna or the required sidebar controls are unavailable, report the blocker instead of silently substituting.
 
 In another harness with different models, use an available model weaker than the initiating model. Run it in a separate task or agent that follows the stronger model's brief. If the harness cannot delegate to a weaker model, report that limitation.
 
